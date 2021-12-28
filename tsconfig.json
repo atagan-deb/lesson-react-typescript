@@ -4,6 +4,7 @@
     ],
     "compilerOptions": {
         "strict": true,
+        "noImplicitAny": false, // 暗黙的なany型をエラー判定しない
         "esModuleInterop": true,
         "lib": [
             "dom",
